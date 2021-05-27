@@ -1,0 +1,84 @@
+#box{
+    background-color: yellow;
+    width: 200px;
+
+}
+
+body {
+    text-align: center;
+    margin-left: 10px;
+    padding: 0;
+}
+
+#tudo {
+    background-color: #CFCFCF;  
+    text-align: left;
+    margin: 0 auto;
+    width:1000px;
+}
+#conteudo{
+    padding: 5px;
+}
+
+#cadastro fieldset{
+    width: 970px;
+    padding: 10px;
+}
+
+#autor fieldset{
+    width: 300px;
+    padding: 10px;
+}
+
+#autor fieldset legend{
+    padding: 10px;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+#cadastro fieldset legend{
+    padding: 10px;
+    font-family: Arial;
+    font-size: 30px;
+}
+#cadastro fieldset label{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#cadastro fieldset input{
+    background-color: white;
+    border: 0px;
+}
+.info, .successo, .aviso, .erro {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+}
+
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.sucesso {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.aviso {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.erro {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+table{border: 0px;}
+tr:nth-child(even) {background: #FFF;}
+tr:nth-child(odd) {background: #EEE;}
+
+legend{font-size: 20px;;}

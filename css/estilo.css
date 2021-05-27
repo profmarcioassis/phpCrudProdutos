@@ -1,0 +1,51 @@
+fieldset{
+ width: 750px;
+ margin: 10px auto;
+ color: #444;
+ border: 5px solid #ccc;
+ font-family: Helvetica;
+ padding: 15px;
+}
+
+h1{
+ text-align: center;
+}
+
+p.sub-titulo{
+ font-size: 20px;
+ text-align: center;
+}
+
+.direita{
+ text-align: right;
+}
+
+.centralizado{
+ text-align: center;
+ 
+}
+
+/*trecho para fazer a borda */
+table, th, td{
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table{
+    width: 100%
+}
+
+th{
+    border-style: solid;
+    border-bottom-width: 1px;
+    padding: 5px;
+    background-color: silver; 
+}
+.mytab tr:nth-child(odd) {
+    background-color:white;
+}  
+
+.mytab tr:nth-child(even) {
+    background-color: WhiteSmoke;
+} 
+
